@@ -12,7 +12,7 @@
 
 <header>
 
-<h1 class="logo"><a href="index.html"><img src="images/logo.png" alt="KIDS CLUB"></a></h1>
+<h1 class="logo"><a href="index.html"><img src="images/logo.png" alt="NET LITERACY"></a></h1>
 </header>
 
 <div id="contents">
@@ -21,7 +21,7 @@
 
 <section>
 
-<h2>登録画面</h2>
+<h2>ログイン画面</h2>
 
 <!-- フォームの情報はここからです -->
 <form name="form1" enctype="multipart/form-data" method="post" action="">
@@ -31,17 +31,10 @@
 <!--<tr><td colspan="2" class="auto"><strong>確認画面</strong></td></tr>-->
 <!-- 入力／確認 -->
 <tr>
-<th width="150">ユーザーネーム</th>
+<th width="150">ユーザーネーム<span id="or">または</span>メールアドレス</th>
 <td>
 <input type="hidden" name="item1" value="">
 <!-- <?php echo $form["item1] ; ? > <?php echo $form["item1"];?> -->
-</td>
-</tr>
-<tr>
-<th width="150">メールアドレス</th>
-<td>
-<input type="hidden" name="item2" value="">
-<!-- <?php echo $form["item2"]; ?> <?php echo $form["item2"];?> -->
 </td>
 </tr>
 <tr>
@@ -54,10 +47,9 @@
 </table>
 
 <p class="btn">
-<input type="submit" value="登録">
+<input type="submit" value="ログイン">
 &nbsp;
 </p>
-
 
 </form>
 <!-- フォームの情報はここまでです -->
