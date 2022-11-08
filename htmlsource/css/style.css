@@ -962,3 +962,11 @@ html, body {
 /*　※注意！　下の閉じカッコ　}　はこのブロックに必要なので、削除しないで下さい。　*/
 
 }
+
+button {
+	margin: 3em 13em;
+	
+	background-color: chartreuse;
+	width: 10em;
+    height:5em;
+}
