@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<title>幼稚園・保育園・キッズクラブ向け 無料ホームページテンプレート tp_kids6</title>
+<title>signup_page_mock</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="ここにサイト説明を入れます">
 <link rel="stylesheet" href="css/style.css">
@@ -22,13 +22,44 @@
 
 <section>
 
-<h2>送信完了</h2>
+<h2>登録画面</h2>
 
 <!-- フォームの情報はここからです -->
-<form name="form1" enctype="multipart/form-data" method="post" action="<?php echo $_SERVER["REQUEST_URI"];?>">
-<input type="hidden" name="mode" value="finish" />
-<!-- 処理終了 -->
-<p>送信が完了しました。</p>
+<form name="form1" enctype="multipart/form-data" method="post" action="">
+    <!-- <?php echo $_SERVER["REQUEST_URI"];?> -->
+<input type="hidden" name="mode" value="confirm">
+<table class="ta1">
+<!--<tr><td colspan="2" class="auto"><strong>確認画面</strong></td></tr>-->
+<!-- 入力／確認 -->
+<tr>
+<th width="150">ユーザーネーム</th>
+<td>
+<input type="hidden" name="item1" value="">
+<!-- <?php echo $form["item1] ; ? > <?php echo $form["item1"];?> -->
+</td>
+</tr>
+<tr>
+<th width="150">メールアドレス</th>
+<td>
+<input type="hidden" name="item2" value="">
+<!-- <?php echo $form["item2"]; ?> <?php echo $form["item2"];?> -->
+</td>
+</tr>
+<tr>
+<th width="150">パスワード</th>
+<td>
+<input type="hidden" name="item3" value="">
+<!-- <?php echo $form["item3"]; ?> <?php echo nl2br($form["item3"]);?> -->
+</td>
+</tr>
+</table>
+
+<p class="btn">
+<input type="submit" value="送信する">
+&nbsp;
+<input type="button" value="戻る" >
+</p>
+
 </form>
 <!-- フォームの情報はここまでです -->
 
@@ -36,47 +67,6 @@
 
 </main>
 
-<section id="footer">
-
-<h2 class="logo transform3"><img src="images/logo_home.png" alt="KIDS CLUB"></h2>
-
-<div id="map">
-<img src="images/dummy_map_main.png" alt="">
-</div>
-
-<div id="footermenu">
-<ul>
-<li class="color-theme">メニュー</li>
-<li><a href="index.html">ホーム</a></li>
-<li><a href="school.html">スクール紹介</a></li>
-<li><a href="event.html">今年度のイベント</a></li>
-<li><a href="faq.html">よく頂く質問</a></li>
-<li><a href="staff.html">スタッフ紹介</a></li>
-<li><a href="company.html">会社概要</a></li>
-<li><a href="contact.html">お問い合わせ</a></li>
-</ul>
-<ul>
-<li class="color-theme">メニュー見出し</li>
-<li><a href="#">サンプルメニューサンプルメニュー</a></li>
-<li><a href="#">サンプルメニュー</a></li>
-<li><a href="#">サンプルメニュー</a></li>
-<li><a href="#">サンプルメニュー</a></li>
-</ul>
-<ul>
-<li class="color-theme">メニュー見出し</li>
-<li><a href="#">サンプルメニューサンプルメニュー</a></li>
-<li><a href="#">サンプルメニュー</a></li>
-<li><a href="#">サンプルメニュー</a></li>
-<li><a href="#">サンプルメニュー</a></li>
-</ul>
-<ul>
-<li class="color-theme">メニュー見出し</li>
-<li><a href="#">サンプルメニューサンプルメニュー</a></li>
-<li><a href="#">サンプルメニュー</a></li>
-<li><a href="#">サンプルメニュー</a></li>
-<li><a href="#">サンプルメニュー</a></li>
-</ul>
-</div>
 <!--/#footermenu-->
 
 <footer>
