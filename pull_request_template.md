@@ -6,16 +6,16 @@
 - [ ] 自分をAssignした。Assigned yourself.
 - [ ] レビュワーを指定した。Assigned reviewer.
  
-## ⛏ 変更内容 / Details of Changes
+## 変更内容
  
 <!-- 変更を端的に箇条書きで -->
 - xxx
 - xxxx
  
-## 📸 スクリーンショット / Screenshots
+## スクリーンショット
 
 <!-- スタイルなどの変更の場合はスクリーンショットがあるとレビューしやすいです -->
 
-## レビューするポイント (Points for review):
+## レビューするポイント
  
 <!-- テストケースを箇条書きで。Issueに書いてあればコピーしてください。 -->
