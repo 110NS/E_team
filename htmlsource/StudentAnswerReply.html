@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>子ユーザ質問返答画面</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="質問に任意の子ユーザが返答した内容のページ">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+
+        
+    </header>
+
+    <div id="contents">
+
+        <main>
+
+            <section>
+
+                <table class="ta1">
+                    <!--順番に質問した内容を入力すること-->
+                    <tr>
+                        <h2>質問</h2>
+                    </tr>
+                    <tr>
+                        <h3>〇〇さんの返答</h3>
+                    </tr>
+                    <tr>
+                        <!--ここのテキストエリアは関数・スクリプトでDBから子ユーザの返答の内容を入力させること-->
+                        <td><textarea name="お問い合わせ詳細" cols="30" rows="10" class="wl" readonly></textarea></td>
+                    </tr>
+                </table>
+
+                <table>
+                    <tr>
+                        <td>
+                            <p class="btn">
+                                <!--任意の子ユーザのトーク履歴の画面に移る-->
+                                <input type="submit" value="トーク履歴">
+                            </p>
+                        </td>
+                        <td>
+                            <p class="btn">
+                                <!--ボタンをクリックするとフラグを立てて管理者トップページの上部にある[ピン止めしたもの]に優先的に表示されるようにする-->
+                                <input type="submit" value="ピン止め">
+                            </p>
+                        </td>
+                        <td>
+                            <p class="btn">
+                                <!--管理者トップページに戻るボタン-->
+                                <input type="submit" value="戻る">
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+        </main>
+
+
+        <section id="footer">
+            <footer>
+                <small>Copyright&copy; <a href="index.html">KIDS CLUB</a> All Rights Reserved.</small>
+                <span class="pr"><a href="https://template-party.com/" target="_blank">《Web
+                        Design:Template-Party》</a></span>
+            </footer>
+        </section>
+        <!--/#footer-->
+    </div>
+    <!--/#contents-->
+
+    <!--jQueryの読み込み-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!--biz56用のスクリプト-->
+    <script src="js/main.js"></script>
+
+
+    <!--ページの上部へ戻るボタン-->
+    <div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
+
+    <!--パララックス（inview）-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
+    <script src="js/jquery.inview_set.js"></script>
+
+</body>
+
+</html>
