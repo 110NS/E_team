@@ -971,7 +971,8 @@ html, body {
 	margin:0;
 	padding:0;
 	width: 100%;
-	height: 100px;
+	height: 80px;
+	position: fixed;
 	background: #87CEFA ;/*背景色、ハンバーガメニュー画像の読み込み。最後のpxは上のwidthとheightと#menubar_hdr.hamと揃えておいて下さい。*/
 	box-shadow: 2px 2px 0px 4px rgba(0,0,0,0.1);		/*ボックスの影。右へ、したへ、ぼかし幅、広げる距離。0,0,0は黒の事で0.1は色が10%でた状態の事。*/
 	transition: 0.2s;
