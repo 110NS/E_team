@@ -1006,3 +1006,10 @@ html, body {
 	  cursor:pointer;
 	}
 
+	#new dt span {
+		position: static;
+	}
+
+	main h2 {
+		position: static;
+	}
