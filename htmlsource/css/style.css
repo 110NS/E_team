@@ -117,6 +117,7 @@ header {
 	max-width: 1400px;
 	/*最大幅*/
 	margin: 0 auto;
+	flex-direction: column;
 
 }
 
@@ -1312,8 +1313,58 @@ dl.event dd {
 
 	/*　※注意！　下の閉じカッコ　}　はこのブロックに必要なので、削除しないで下さい。　*/
 
+/* ここから自分用 */
 }
 
+.ULMenuBar {
+	display:flex;
+	text-align:center;
+	margin:0;
+	padding:0;
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	background: #87CEFA ;/*背景色、ハンバーガメニュー画像の読み込み。最後のpxは上のwidthとheightと#menubar_hdr.hamと揃えておいて下さい。*/
+	box-shadow: 2px 2px 0px 4px rgba(0,0,0,0.1);		/*ボックスの影。右へ、したへ、ぼかし幅、広げる距離。0,0,0は黒の事で0.1は色が10%でた状態の事。*/
+	transition: 0.2s;
+  }
+  
+	.ULMenuBar > li {
+	  margin:0;
+	  padding:0;
+	  flex: 1;
+	  list-style-type: none;
+	  border:1px solid #808080;
+	}
+  
+  .MenuBarButton {
+	display: block;
+	border: 0px none;
+	background-color: transparent;
+	width: 100%;
+	height:100%;
+	font-size: 24px;
+	color: #F9F7DC;	/*文字色*/
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);	/*テキストの影。右へ、下へ、距離、0,0,0は黒の事で0.3は30%色が出た状態。*/
+	margin: 0;
+	padding: 0;
+	border-radius: 0;
+	box-shadow: rgba(0,0,0,1) 0 0 inset;
+	outline: none;
+  }
+	.MenuBarButton:hover {
+	  background-color:#E0E0E0;
+	  cursor:pointer;
+	}
+
+	#new dt span {
+		position: static;
+	}
+
+	main h2 {
+		position: static;
+	}
+=======
 
 #or {
 	font-size: small;
