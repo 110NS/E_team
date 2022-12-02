@@ -1319,11 +1319,4 @@ dl.event dd {
 	font-size: small;
 }
 
-	button {
-		margin: 3em 13em;
-
-		background-color: chartreuse;
-		width: 10em;
-		height: 5em;
-	}
-}
+	
