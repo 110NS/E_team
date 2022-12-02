@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" href = "./css/account_management.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+      <h1>管理画面</h1>
+
+    </header>
+
+    <div class="tabs">
+        <input id="all" type="radio" name="tab_item" checked>
+        <label class="tab_item" for="all">アカウント一覧</label>
+        
+        <input id="programming" type="radio" name="tab_item">
+        <label class="tab_item" for="programming">アカウント作成</label>
+
+        <input id="design" type="radio" name="tab_item">
+        <label class="tab_item" for="design">アカウント削除</label>
+
+
+        <!---アカウント一覧---->
+        <div class="tab_content" id="all_content">
+          <div class="tab_content_description">
+            <p class="c-txtsp">ここに管理しているアカウントを表示する</p>
+          </div>
+        </div>
+
+        <!---アカウント作成---->
+        <div class="tab_content" id="programming_content">
+          <div class="tab_content_description">
+
+            <div class = "user_creation">
+                <h3>作成したいユーザ数</h3>
+
+                <div class="cp_iptxt">
+                    <label class="ef">
+                    <input type="text" placeddddholder = "人数">
+                    </label>
+                </div>
+                <div class="button019">
+                    <a href="">作成</a>
+                </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!---アカウント削除---->
+        <div class = "tab_content" id="design_content">
+          <div class = "tab_content_description">
+            <div class = "nannka">
+              <h3>削除するアカウント</h3>
+
+              <p>ユーザID</p>
+              <div class="cp_iptxt">
+
+                  <label class="ef">
+                  <input type = "text" >
+                  </label>
+              </div>
+
+              <p>パスワード</p>
+              <div class="cp_iptxt">
+
+                <label class="ef">
+                <input type = "text" >
+                </label>
+              </div>
+            </div>
+
+            <div class="button019">
+              <a href="">削除</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    
+</body>
+</html>
