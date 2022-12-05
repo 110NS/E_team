@@ -1,0 +1,249 @@
+﻿@model appdev.Models.Questions
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html>
+<html lang="ja">
+<style>
+    header {
+        display: flex; /*flexボックスを使う指定*/
+        justify-content: space-between; /*並びかたの種類の指定*/
+        max-width: 1400px; /*最大幅*/
+        margin: 0 auto;
+        height: 150px;
+    }
+
+    .lo {
+        margin-top: 50px;
+        margin-left: 100px;
+        width: 300px;
+        height: 300px;
+    }
+
+    button {
+        appearance: none;
+        margin-top: 50px;
+        margin-right: 10px;
+        margin-left: 10px;
+        height: 100px;
+        width: 200px;
+    }
+
+        button:hover {
+            cursor: pointer;
+            background-color: #00ff00;
+        }
+
+    h1 {
+        width: auto;
+    }
+
+    #wrapper {
+        height: 500px;
+        width: 300px;
+        overflow-y: scroll;
+    }
+
+    #box1 {
+        margin-left: 100px;
+        width: 1000px;
+        height: 500px;
+        padding-left: 50px;
+        border: solid 2px #000000;
+        overflow-x: scroll;
+    }
+
+    .f-container {
+        width: 1000px;
+        display: flex;
+        padding: 5px;
+    }
+
+    .textarea {
+        width: 300px;
+        height: 150px;
+        margin: 5px;
+        padding: 15px;
+    }
+
+    #menubar.db {
+        align-items: flex-start;
+        padding: 100px 0;
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>管理者トップページ</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ここにサイト説明を入れます">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="home">
+
+    <header>
+
+        <h1 class="lo"><a href="index.html"><img src="images/logo_home.png" alt="KIDS CLUB"></a></h1>
+
+        <p class="btn">
+            <button type="new">ユーザ管理</button>
+            <button type="new">ログアウト</button>
+        </p>
+    </header>
+
+    <div id="contents">
+
+        <main>
+
+            <section class="deco">
+
+
+
+                <div class="c2">
+
+                    <div class="main">
+                        @{
+                            for(int i = 0; i < Model.list_per_q.Count; i++)
+                            {
+                                <div id="box1">
+                                    <h1>質問 @i</h1>
+
+                                    <textarea class="textarea" readonly style="width:1000px;">ピン止めしたやつを表示する</textarea>
+                                    <div class="f-container">
+                                        @{
+                                            for (int j = 0; j < @Model.list_per_q[i].list.Count ; j++)
+                                            {
+                                                
+                                                <textarea class="textarea" readonly>
+                                                    @Model.list_per_q[i].list[j].student_name
+                                                    @Model.list_per_q[i].list[j].text</textarea>
+                                            }
+                                        }
+                                    </div>
+
+                                </div>
+                                <br>
+                            }
+                        }
+
+
+
+
+
+
+
+
+
+                    </div>
+                    <!--/.main-->
+
+                    <div class="sub">
+                        <div id="wrapper">
+                            <nav>
+                                <ul class="submenu">
+                                    <li><a href="#">(Aの会話画面へ)</a></li>
+                                    <li><a href="#">(Bの会話画面へ)</a></li>
+                                    <li><a href="#">(Cの会話画面へ)</a></li>
+                                    <li><a href="#">(Dの会話画面へ)</a></li>
+                                    <li><a href="#">(Eの会話画面へ)</a></li>
+                                    <li><a href="#">(Fの会話画面へ)</a></li>
+                                    <li><a href="#">(Gの会話画面へ)</a></li>
+                                    <li><a href="#">(Hの会話画面へ)</a></li>
+                                    <li><a href="#">(Iの会話画面へ)</a></li>
+                                    <li><a href="#">(Jの会話画面へ)</a></li>
+                                    <li><a href="#">(Kの会話画面へ)</a></li>
+                                    <li><a href="#">(Lの会話画面へ)</a></li>
+                                </ul>
+
+                            </nav>
+                        </div>
+
+
+                    </div>
+                    <!--/.sub-->
+
+                </div>
+                <!--/.c2-->
+
+            </section>
+
+        </main>
+
+        <!-- <section id="footer">
+
+         <h2 class="logo transform3"><img src="images/logo_home.png" alt="KIDS CLUB"></h2>
+
+
+
+
+
+         </div>
+         -->
+        <!--<div style="background-color:gray; width:2px; height:1500px; margin-left: 150px;"></div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div id="footermenu">
+            <ul>
+                <li class="color-theme">メニュー</li>
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="school.html">スクール紹介</a></li>
+                <li><a href="event.html">今年度のイベント</a></li>
+                <li><a href="faq.html">よく頂く質問</a></li>
+                <li><a href="staff.html">スタッフ紹介</a></li>
+                <li><a href="company.html">会社概要</a></li>
+                <li><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+
+
+            <!--メインメニュー-->
+            <div align="center">
+                <nav id="menubar">
+                    <ul>
+                        <li><a href="index.html">ホーム<span>Home</span></a></li>
+                        <li><a href="school.html">スクール紹介<span>School Introduction</span></a></li>
+                        <li><a href="event.html">今年度のイベント<span>Event</span></a></li>
+                        <li><a href="faq.html">よく頂く質問<span>Faq</span></a></li>
+                        <li><a href="staff.html">スタッフ紹介<span>Our Staff</span></a></li>
+                        <li><a href="company.html">会社概要<span>Company</span></a></li>
+                        <li><a href="contact.html">お問い合わせ<span>Contact</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!--jQueryの読み込み-->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+            <!--biz56用のスクリプト-->
+            <script src="js/main.js"></script>
+
+            <!--ハンバーガーボタン（開閉操作のボタン）-->
+            <div id="menubar_hdr"></div>
+
+            <!--ページの上部へ戻るボタン-->
+            <div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
+
+            <!--パララックス（inview）-->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
+            <script src="js/jquery.inview_set.js"></script>
+
+</body>
+</html>
