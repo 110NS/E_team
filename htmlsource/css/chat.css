@@ -112,6 +112,8 @@
       text-align: left;/*文字を左寄せ*/
       box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.2) inset;/*内側に影を入れてテキストエリアらしくした*/
       box-sizing: border-box;/*paddingとborderの要素の高さと幅の影響をなくす（要素に高さと幅を含める）*/
+      padding-bottom: 10px;
+      font-size: 18px;
 
   }
   #send_btn {
