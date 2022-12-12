@@ -1,0 +1,104 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>signup_page_mock</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ここにサイト説明を入れます">
+    <link rel="stylesheet" href="/css/style.css">
+    <script async src="js/passchange_view.js"></script>
+</head>
+
+<body>
+
+    <header>
+    </header>
+
+    <div id="contents">
+
+        <main>
+
+            <section>
+
+                <h2>登録画面</h2>
+
+                <!-- フォームの情報はここからです -->
+                <form name="form1" enctype="multipart/form-data" method="post" action="">
+                    <!-- <?php echo $_SERVER["REQUEST_URI"];?> -->
+                    <input type="hidden" name="mode" value="confirm">
+                    <table class="ta1">
+                        <!--<tr><td colspan="2" class="auto"><strong>確認画面</strong></td></tr>-->
+                        <!-- 入力／確認 -->
+
+                        <tr>
+                            <td style="text-align:right; padding-right: 6%;">
+                                <font size="5">ID</font>
+                            </td>
+                            <td>
+                                <input type="text" name="id" value="" style="font-size:30px;">
+                            </td>
+                            <td><input type="hidden" name="space" value=""></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:right; ">
+                                <font size="5">パスワード</font>
+                            </td>
+                            <td>
+                                <input type="password" name="password" value="" id="input_pass" style="font-size:30px;">
+                                <button id="btn_passview">表示</button>
+                            </td>
+                            <td><input type="hidden" name="space" value=""></td>
+                        </tr>
+                    </table>
+
+                    <p class="btn">
+                        <input type="submit" value="登録">
+                        &nbsp;
+                    </p>
+
+                </form>
+                <!-- フォームの情報はここまでです -->
+
+            </section>
+
+        </main>
+
+        <!--/#footermenu-->
+
+        <footer>
+            <small>Copyright&copy; <a href="index.html">KIDS CLUB</a> All Rights Reserved.</small>
+            <span class="pr">
+                <a href="https://template-party.com/" target="_blank">
+                    《Web
+                    Design:Template-Party》
+                </a>
+            </span>
+        </footer>
+
+        </section>
+        <!--/#footer-->
+
+    </div>
+    <!--/#contents-->
+    <!--jQueryの読み込み-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!--biz56用のスクリプト-->
+    <script src="js/main.js"></script>
+
+    <!--ページの上部へ戻るボタン-->
+    <div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
+
+    <!--パララックス（inview）-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
+    <script src="js/jquery.inview_set.js"></script>
+
+</body>
+
+</html>

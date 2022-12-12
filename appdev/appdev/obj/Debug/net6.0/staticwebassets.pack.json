@@ -5,6 +5,26 @@
       "PackagePath": "staticwebassets\\appdev.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\81808\\Documents\\GitHub\\E_team\\appdev\\appdev\\wwwroot\\css\\account_management.css",
+      "PackagePath": "staticwebassets\\css\\account_management.css"
+    },
+    {
+      "Id": "C:\\Users\\81808\\Documents\\GitHub\\E_team\\appdev\\appdev\\wwwroot\\css\\animation.css",
+      "PackagePath": "staticwebassets\\css\\animation.css"
+    },
+    {
+      "Id": "C:\\Users\\81808\\Documents\\GitHub\\E_team\\appdev\\appdev\\wwwroot\\css\\chat.css",
+      "PackagePath": "staticwebassets\\css\\chat.css"
+    },
+    {
+      "Id": "C:\\Users\\81808\\Documents\\GitHub\\E_team\\appdev\\appdev\\wwwroot\\css\\chatstyle.css",
+      "PackagePath": "staticwebassets\\css\\chatstyle.css"
+    },
+    {
+      "Id": "C:\\Users\\81808\\Documents\\GitHub\\E_team\\appdev\\appdev\\wwwroot\\css\\inview.css",
+      "PackagePath": "staticwebassets\\css\\inview.css"
+    },
+    {
       "Id": "C:\\Users\\81808\\Documents\\GitHub\\E_team\\appdev\\appdev\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -15,6 +35,10 @@
     {
       "Id": "C:\\Users\\81808\\Documents\\GitHub\\E_team\\appdev\\appdev\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\81808\\Documents\\GitHub\\E_team\\appdev\\appdev\\wwwroot\\js\\passchange_view.js",
+      "PackagePath": "staticwebassets\\js\\passchange_view.js"
     },
     {
       "Id": "C:\\Users\\81808\\Documents\\GitHub\\E_team\\appdev\\appdev\\wwwroot\\js\\site.js",
@@ -247,6 +271,90 @@
     {
       "Id": "C:\\Users\\81808\\Documents\\GitHub\\E_team\\appdev\\appdev\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\81808\\Documents\\GitHub\\E_team\\appdev\\appdev\\wwwroot\\media\\image\\1.jpg",
+      "PackagePath": "staticwebassets\\media\\image\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\81808\\Documents\\GitHub\\E_team\\appdev\\appdev\\wwwroot\\media\\image\\2.jpg",
+      "PackagePath": "staticwebassets\\media\\image\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\81808\\Documents\\GitHub\\E_team\\appdev\\appdev\\wwwroot\\media\\image\\3.jpg",
+      "PackagePath": "staticwebassets\\media\\image\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\81808\\Documents\\GitHub\\E_team\\appdev\\appdev\\wwwroot\\media\\image\\bg_deco_bottom.png",
+      "PackagePath": "staticwebassets\\media\\image\\bg_deco_bottom.png"
+    },
+    {
+      "Id": "C:\\Users\\81808\\Documents\\GitHub\\E_team\\appdev\\appdev\\wwwroot\\media\\image\\bg_deco_top.png",
+      "PackagePath": "staticwebassets\\media\\image\\bg_deco_top.png"
+    },
+    {
+      "Id": "C:\\Users\\81808\\Documents\\GitHub\\E_team\\appdev\\appdev\\wwwroot\\media\\image\\bg_kazari.png",
+      "PackagePath": "staticwebassets\\media\\image\\bg_kazari.png"
+    },
+    {
+      "Id": "C:\\Users\\81808\\Documents\\GitHub\\E_team\\appdev\\appdev\\wwwroot\\media\\image\\cracker.gif",
+      "PackagePath": "staticwebassets\\media\\image\\cracker.gif"
+    },
+    {
+      "Id": "C:\\Users\\81808\\Documents\\GitHub\\E_team\\appdev\\appdev\\wwwroot\\media\\image\\dummy_map_main.png",
+      "PackagePath": "staticwebassets\\media\\image\\dummy_map_main.png"
+    },
+    {
+      "Id": "C:\\Users\\81808\\Documents\\GitHub\\E_team\\appdev\\appdev\\wwwroot\\media\\image\\ham.png",
+      "PackagePath": "staticwebassets\\media\\image\\ham.png"
+    },
+    {
+      "Id": "C:\\Users\\81808\\Documents\\GitHub\\E_team\\appdev\\appdev\\wwwroot\\media\\image\\kazari1.png",
+      "PackagePath": "staticwebassets\\media\\image\\kazari1.png"
+    },
+    {
+      "Id": "C:\\Users\\81808\\Documents\\GitHub\\E_team\\appdev\\appdev\\wwwroot\\media\\image\\kazari2.png",
+      "PackagePath": "staticwebassets\\media\\image\\kazari2.png"
+    },
+    {
+      "Id": "C:\\Users\\81808\\Documents\\GitHub\\E_team\\appdev\\appdev\\wwwroot\\media\\image\\logo.ai",
+      "PackagePath": "staticwebassets\\media\\image\\logo.ai"
+    },
+    {
+      "Id": "C:\\Users\\81808\\Documents\\GitHub\\E_team\\appdev\\appdev\\wwwroot\\media\\image\\logo.png",
+      "PackagePath": "staticwebassets\\media\\image\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\81808\\Documents\\GitHub\\E_team\\appdev\\appdev\\wwwroot\\media\\image\\logo_home.ai",
+      "PackagePath": "staticwebassets\\media\\image\\logo_home.ai"
+    },
+    {
+      "Id": "C:\\Users\\81808\\Documents\\GitHub\\E_team\\appdev\\appdev\\wwwroot\\media\\image\\logo_home.png",
+      "PackagePath": "staticwebassets\\media\\image\\logo_home.png"
+    },
+    {
+      "Id": "C:\\Users\\81808\\Documents\\GitHub\\E_team\\appdev\\appdev\\wwwroot\\media\\image\\sample1.jpg",
+      "PackagePath": "staticwebassets\\media\\image\\sample1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\81808\\Documents\\GitHub\\E_team\\appdev\\appdev\\wwwroot\\media\\image\\sample2.jpg",
+      "PackagePath": "staticwebassets\\media\\image\\sample2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\81808\\Documents\\GitHub\\E_team\\appdev\\appdev\\wwwroot\\media\\image\\sample_movie.mp4",
+      "PackagePath": "staticwebassets\\media\\image\\sample_movie.mp4"
+    },
+    {
+      "Id": "C:\\Users\\81808\\Documents\\GitHub\\E_team\\appdev\\appdev\\wwwroot\\media\\image\\tel.ai",
+      "PackagePath": "staticwebassets\\media\\image\\tel.ai"
+    },
+    {
+      "Id": "C:\\Users\\81808\\Documents\\GitHub\\E_team\\appdev\\appdev\\wwwroot\\media\\image\\tel.png",
+      "PackagePath": "staticwebassets\\media\\image\\tel.png"
+    },
+    {
+      "Id": "C:\\Users\\81808\\Documents\\GitHub\\E_team\\appdev\\appdev\\wwwroot\\media\\image\\u_line1.png",
+      "PackagePath": "staticwebassets\\media\\image\\u_line1.png"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.appdev.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -33,6 +33,13 @@ namespace appdev.Controllers
 
 
             return View(alllist);
+
+            
+
+        }
+        public IActionResult account_management()
+        {
+            return View();
         }
     }
 }
