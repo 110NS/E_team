@@ -14,4 +14,8 @@
     <None Include="Views\Talk\MainchatPage.cshtml" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.0.1" />
+  </ItemGroup>
+
 </Project>
