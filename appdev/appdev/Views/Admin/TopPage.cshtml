@@ -80,7 +80,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="ここにサイト説明を入れます">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
 
 </head>
 
@@ -91,8 +91,10 @@
         <h1 class="lo"><a href="index.html"><img src="images/logo_home.png" alt="KIDS CLUB"></a></h1>
 
         <p class="btn">
-            <button type="new">ユーザ管理</button>
-            <button type="new">ログアウト</button>
+            <!--<button type="new">ユーザ管理</button>
+            <button type="new">ログアウト</button>-->
+            <a class="navbar-brand" asp-area="" asp-controller="Admin" asp-action="account_management">ユーザ管理</a>
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ログアウト</a>
         </p>
     </header>
 

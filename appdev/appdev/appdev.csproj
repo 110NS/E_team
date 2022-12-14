@@ -7,7 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\media\image\" />
+    <Content Remove="Views\Talk\mainchatpage.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Talk\MainchatPage.cshtml" />
   </ItemGroup>
 
 </Project>
