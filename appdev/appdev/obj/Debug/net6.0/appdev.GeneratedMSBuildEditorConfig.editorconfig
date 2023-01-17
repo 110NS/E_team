@@ -5,57 +5,56 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = appdev
 build_property.RootNamespace = appdev
-build_property.ProjectDir = C:\Users\81808\Documents\GitHub\E_team\appdev\appdev\
+build_property.ProjectDir = C:\Users\haru2\Documents\GitHub\E_team\appdev\appdev\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\81808\Documents\GitHub\E_team\appdev\appdev
+build_property.MSBuildProjectDirectory = C:\Users\haru2\Documents\GitHub\E_team\appdev\appdev
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/81808/Documents/GitHub/E_team/appdev/appdev/Views/Admin/account_management.cshtml]
+[C:/Users/haru2/Documents/GitHub/E_team/appdev/appdev/Views/Admin/account_management.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cYWNjb3VudF9tYW5hZ2VtZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/81808/Documents/GitHub/E_team/appdev/appdev/Views/Admin/TopPage.cshtml]
+[C:/Users/haru2/Documents/GitHub/E_team/appdev/appdev/Views/Admin/TopPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVG9wUGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/81808/Documents/GitHub/E_team/appdev/appdev/Views/Home/Index.cshtml]
+[C:/Users/haru2/Documents/GitHub/E_team/appdev/appdev/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/81808/Documents/GitHub/E_team/appdev/appdev/Views/Home/Privacy.cshtml]
+[C:/Users/haru2/Documents/GitHub/E_team/appdev/appdev/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/81808/Documents/GitHub/E_team/appdev/appdev/Views/Login/AdminLogin.cshtml]
+[C:/Users/haru2/Documents/GitHub/E_team/appdev/appdev/Views/Login/AdminLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cQWRtaW5Mb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/81808/Documents/GitHub/E_team/appdev/appdev/Views/Login/Signup.cshtml]
+[C:/Users/haru2/Documents/GitHub/E_team/appdev/appdev/Views/Login/Signup.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cU2lnbnVwLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/81808/Documents/GitHub/E_team/appdev/appdev/Views/Shared/Error.cshtml]
+[C:/Users/haru2/Documents/GitHub/E_team/appdev/appdev/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/81808/Documents/GitHub/E_team/appdev/appdev/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/haru2/Documents/GitHub/E_team/appdev/appdev/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/81808/Documents/GitHub/E_team/appdev/appdev/Views/_ViewImports.cshtml]
+[C:/Users/haru2/Documents/GitHub/E_team/appdev/appdev/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/81808/Documents/GitHub/E_team/appdev/appdev/Views/_ViewStart.cshtml]
+[C:/Users/haru2/Documents/GitHub/E_team/appdev/appdev/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/81808/Documents/GitHub/E_team/appdev/appdev/Views/Shared/_Layout.cshtml]
+[C:/Users/haru2/Documents/GitHub/E_team/appdev/appdev/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-h7dok4ydxy
