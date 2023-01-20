@@ -1,12 +1,19 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
 
 namespace appdev.Controllers
 {
+    
     public class TalkController : Controller
     {
+
         public IActionResult MainchatPage()
         {
-            return View();
+            return View("ChatPage");
         }
+
+
+        
     }
+    
 }

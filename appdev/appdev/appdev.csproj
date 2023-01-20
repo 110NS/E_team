@@ -7,11 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="Views\Talk\mainchatpage.cshtml" />
+    <Content Remove="Views\Talk\MainchatPage.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="Views\Talk\MainchatPage.cshtml" />
+    <None Include="Views\Talk\ChatPage.cshtml" />
   </ItemGroup>
 
 </Project>

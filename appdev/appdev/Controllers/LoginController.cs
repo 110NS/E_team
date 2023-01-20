@@ -15,6 +15,14 @@ namespace appdev.Controllers
             return View();
         }
 
+
+        public IActionResult StudentLogin()
+        {
+            return View();
+        }
+        
+        //管理者
+        
         public IActionResult Login(string id, string password)
         {
             string test_id = "佐藤";
@@ -30,5 +38,31 @@ namespace appdev.Controllers
             
             return View("AdminLogin");
         }
+        
+        
+        //児童用ログイン
+        
+        public IActionResult Student(string ID, string PASSWORD)
+        {
+            string test_ID = "夢路";
+            string test_PASSWORD = "1123";
+            Debug.WriteLine(ID);
+            Debug.WriteLine(PASSWORD);
+
+            bool IsLogin = ID == test_ID && PASSWORD == test_PASSWORD;
+            if (IsLogin)
+            {
+                //return RedirectToAction("account_management", "Admin");
+
+                //別のページで試したら普通にできました↑
+
+                //問題の箇所↓
+                return RedirectToAction("MainchatPage", "Talk");
+
+            }
+
+            return View("StudentLogin");
+        }
+        
     }
 }

@@ -110,7 +110,7 @@
 
                     <div class="main">
                         @{
-                            for(int i = 0; i < Model.list_per_q.Count; i++)
+                            for (int i = 0; i < Model.list_per_q.Count; i++)
                             {
                                 <div id="box1">
                                     <h1>質問 @i</h1>
@@ -118,9 +118,9 @@
                                     <textarea class="textarea" readonly style="width:1000px;">ピン止めしたやつを表示する</textarea>
                                     <div class="f-container">
                                         @{
-                                            for (int j = 0; j < @Model.list_per_q[i].list.Count ; j++)
+                                            for (int j = 0; j < @Model.list_per_q[i].list.Count; j++)
                                             {
-                                                
+
                                                 <textarea class="textarea" readonly>
                                                     @Model.list_per_q[i].list[j].student_name
                                                     @Model.list_per_q[i].list[j].text</textarea>
