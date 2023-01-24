@@ -1,5 +1,5 @@
-/appdev/appdev/bin/*
-/appdev/appdev/obj/*
-/appdev/.vs/*
-/.vscode/*
-/appdev/.vs/*
+/appdev/appdev/bin/**
+/appdev/appdev/obj/**
+/appdev/.vs/**
+/.vscode/**
+/appdev/.vs/**
