@@ -1,0 +1,21 @@
+body {
+    background-color:#000000;
+    
+}
+
+.nannka {
+    font-size:50px;
+    color:red;
+}
+
+
+h1,h3 {
+    color:#ffffff;
+    text-align:center;
+}
+
+footer {
+    color:#ffffff;
+    position: absolute;/*←絶対位置*/
+    bottom: 0; /*下に固定*/
+}
