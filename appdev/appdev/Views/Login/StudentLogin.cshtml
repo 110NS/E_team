@@ -1,11 +1,7 @@
-﻿namespace appdev.Views.Login
-{
-    public class StudentLogin
-    {
-
-
-
-    }
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
 }
 
 <!DOCTYPE html>
@@ -16,7 +12,7 @@
     <title>student_login_page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="ここにサイト説明を入れます">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <script async src="js/passchange_view.js"></script>
 </head>
 
@@ -34,7 +30,7 @@
                 <h2>ログイン画面</h2>
 
                 <!-- フォームの情報はここからです -->
-                <form name="form2" enctype="multipart/form-data" method="post" action="Student">
+                <form name="form1" enctype="multipart/form-data" method="post" action="Student">
                     <!-- <?php echo $_SERVER["REQUEST_URI"];?> -->
                     <input type="hidden" name="mode" value="confirm">
                     <table class="ta1">
@@ -56,7 +52,7 @@
                             </td>
                             <td>
                                 <input type="password" name="password" value="" id="input_pass" style="font-size:30px;">
-                                <button id="btn_passview">表示</button>
+                                <button type="button" id="btn_passview">表示</button>
                             </td>
                             <td><input type="hidden" name="space" value=""></td>
                         </tr>

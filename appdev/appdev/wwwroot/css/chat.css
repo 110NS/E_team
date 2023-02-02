@@ -1,11 +1,10 @@
-#your_container{
-  /* 高さや幅など、好きな様に設定
+#your_container {
+    /* 高さや幅など、好きな様に設定
   messages_containerの方で、縦横いっぱいに広がってくれるので、
   ここで充てた高さと横幅がそのままスタイルになる仕組み */
 
-  height:600px;/*ここはご自由に*/
-  /* width: 800px;ここはご自由に */
-
+    height: 600px; /*ここはご自由に*/
+    width: 1000px; /*ここはご自由に*/
 }
 /* チャットの外側部分① */
 #messages_container{
@@ -41,21 +40,23 @@
 
 /* タイムライン部分③ */
 #messages {
-  overflow: auto;/* スクロールを効かせつつ、メッセージがタイムラインの外に出ないようにする */
+  /*overflow: auto;/* スクロールを効かせつつ、メッセージがタイムラインの外に出ないようにする */
   height:100%;/*テキストエリアが下に張り付く様にする*/
   border-right: 1px solid #ddd;
   border-left: 1px solid #ddd;
   background-color: #fff;
   box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2) inset;/*ヘッダーの下に影を入れる*/
+ margin-left:0px; 
 }
   /* メッセージ全般のスタイル */
-  .message {
-      margin: 0px;
-      padding: 0 14px;/*吹き出しがタイムラインの側面にひっつかない様に隙間を開ける*/
-      font-size: 16px;
-      word-wrap: break-word;/* 吹き出し内で自動で改行 */
-      white-space: normal;/*指定widthに合わせて、文字を自動的に改行*/
-  }
+.message {
+    margin: 0px;
+    padding: 0 13px; /*吹き出しがタイムラインの側面にひっつかない様に隙間を開ける*/
+    font-size: 16px;
+    word-wrap: break-word; /* 吹き出し内で自動で改行 */
+    white-space: normal; /*指定widthに合わせて、文字を自動的に改行*/
+    
+}
       .message_box{
           margin-top: 20px;/*上下の吹き出しがひっつかない様に隙間を入れる*/
           max-width: 100%;/*文字が長くなった時に吹き出しがタイムラインからはみ出さない様にする*/
@@ -68,11 +69,12 @@
       .left {
           float: left;/*吹き出しをmessagesに対して左寄せ*/
           line-height: 1.3em;
+          left: 100px;
       }
           .left .message_box {
               color: #333;/*テキストを黒にする*/
               background: #eee;
-              /* border: 1px solid #333; */
+              border: 1px solid #333;
               border-radius: 30px 30px 30px 0px;/*左下だけ尖らせて吹き出し感を出す*/
               margin-right: 50px;/*左側の発言だとわかる様に、吹き出し右側に隙間を入れる*/
           }
@@ -80,11 +82,12 @@
       .right {
           float: right;/*吹き出しをmessagesに対して右寄せ*/
           line-height: 1.3em;
+          right: 100px;
       }
           .right .message_box {
               color: #fff;/*テキストを白にする*/
               background:#87CEFA;
-              /* border: 2px solid #87CEFA; */
+              border: 2px solid #87CEFA;
               border-radius: 30px 30px 0px 30px;/*右下だけ尖らせて吹き出し感を出す*/
               margin-left: 50px;/*右側の発言だとわかる様に、吹き出し左側に隙間を入れる*/
           }
@@ -102,32 +105,33 @@
   height: 48px;
   padding: 4px;
 }
-  #send_message{
-      width: calc(100% - 75px);/*常に送信ボタンの横幅を引いたサイズに動的に計算*/
-      line-height: 16px;
-      height: 48px;
-      padding: 14px 6px 0px 6px;/*文字がテキストエリアの中心になる様に隙間調整*/
-      border: 1px solid #ccc;
-      border-radius: 4px;/*角丸*/
-      text-align: left;/*文字を左寄せ*/
-      box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.2) inset;/*内側に影を入れてテキストエリアらしくした*/
-      box-sizing: border-box;/*paddingとborderの要素の高さと幅の影響をなくす（要素に高さと幅を含める）*/
-
-  }
-  #send_btn {
-      width: 72px;
-      height: 48px;
-      font-size: 16px;
-      line-height: 3em;
-      float: right;/*sendに対して右寄せ*/
-      color: #666;
-      font-weight: bold;
-      background: #eee;
-      text-align: center;/*文字をボタン中央に表示*/
-      border: 1px solid #bbb;
-      border-radius: 4px;/*角丸*/
-      box-sizing: border-box;/*paddingとborderの要素の高さと幅の影響をなくす（要素に高さと幅を含める）*/
-  }
+#send_message {
+    width: calc(100% - 100px); /*常に送信ボタンの横幅を引いたサイズに動的に計算*/
+    line-height: 16px;
+    height: 36px;
+    padding: 14px 6px 0px 6px; /*文字がテキストエリアの中心になる様に隙間調整*/
+    border: 1px solid #ccc;
+    border-radius: 4px; /*角丸*/
+    text-align: left; /*文字を左寄せ*/
+    box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.2) inset; /*内側に影を入れてテキストエリアらしくした*/
+    /*box-sizing: border-box; /*paddingとborderの要素の高さと幅の影響をなくす（要素に高さと幅を含める）*/
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+#send_btn {
+    width: 72px;
+    height: 48px;
+    font-size: 16px;
+    line-height: 3em;
+    float: right; /*sendに対して右寄せ*/
+    color: #666;
+    font-weight: bold;
+    background: #eee;
+    text-align: center; /*文字をボタン中央に表示*/
+    border: 1px solid #bbb;
+    border-radius: 4px; /*角丸*/
+    /*box-sizing: border-box; /*paddingとborderの要素の高さと幅の影響をなくす（要素に高さと幅を含める）*/
+}
   #send_btn:hover {
       background: #87CEFA; /*マウスポインタを当てた時にアクティブな色になる*/
       cursor: pointer;/*マウスポインタを当てた時に、カーソルが指の形になる*/

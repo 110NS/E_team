@@ -12,7 +12,7 @@
 .transform1,
 .transform2 {
 	position: relative;
-	opacity: 0;
+	opacity: 0.7;
 	/*透明度（透明の状態）*/
 }
 
@@ -125,7 +125,7 @@
 ---------------------------------------------------------------------------*/
 /*待機中の設定*/
 .blur {
-	opacity: 0;
+	opacity: 0.7;
 	/*透明度（透明の状態）*/
 	filter: blur(30px);
 	transform: scale(1.2);

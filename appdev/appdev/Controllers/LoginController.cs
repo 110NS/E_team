@@ -25,7 +25,7 @@ namespace appdev.Controllers
         
         public IActionResult Login(string id, string password)
         {
-            string test_id = "佐藤";
+            string test_id = "WizSample01";
             string test_password = "1234";
             Debug.WriteLine(id);
             Debug.WriteLine(password);
@@ -44,7 +44,7 @@ namespace appdev.Controllers
         
         public IActionResult Student(string ID, string PASSWORD)
         {
-            string test_ID = "夢路";
+            string test_ID = "WizSample02";
             string test_PASSWORD = "1123";
             Debug.WriteLine(ID);
             Debug.WriteLine(PASSWORD);
