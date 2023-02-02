@@ -12,8 +12,11 @@ namespace appdev.Controllers
             return View("ChatPage");
         }
 
+        public IActionResult fishingpage()
+        {
+            return View();
+        }
 
-        
     }
     
 }
